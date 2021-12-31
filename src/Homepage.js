@@ -5,8 +5,8 @@ import Gallery from './components/Gallery/Gallery';
 function Homepage() {
   return (
     <div className="App">
-      <h1 className="site-title">Gallery</h1>
-      <h3>A photo gallery to remember all the good times.</h3>
+      <h1 className="site-title">Photo Gallery</h1>
+      <h4>...because life is beautiful</h4>
       <Navbar />
       <Gallery />
     </div>
