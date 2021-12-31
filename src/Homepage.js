@@ -1,6 +1,6 @@
 import './Homepage.css';
-import Navbar from './components/Navbar/Navbar';
-import Gallery from './components/Gallery/Gallery';
+import Navbar from './components/Navbar';
+import Gallery from './components/Gallery';
 
 function Homepage() {
   return (

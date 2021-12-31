@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import apiHelpers from "../../modules/apiHelpers"
-import Modal from "../Modal/Modal"
+import Modal from "../Modal"
 import './Gallery.css'
 
 const Gallery = () => {
