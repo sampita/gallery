@@ -24,14 +24,14 @@ const Modal = ({ open, onClose, children }) => {
     if (!open) return null
 
     return ReactDom.createPortal(
-        <button onClick={() => onClose()}>
+        <div onClick={() => onClose()}>
             {/* I used inline styles here to overrule all other styles, particularly the z-index to make the modal appear front and center */}
             <div style={MODAL_OVERLAY} />
             <div style={MODAL_STYLES} className="modal">
                 {children}
                 <button onClick={() => onClose()}>Close</button>
             </div>
-        </button>,
+        </div>,
         document.getElementById("portal")
     )
 }
