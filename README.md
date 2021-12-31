@@ -109,7 +109,8 @@ const getPhotoURL = (obj) => {
 ### STYLING
 From a UI perspective, I would do a lot more UI styling (I had NO time to do any styling) to make the app appear clean, simple, and modern. A loading circle would definitely need to be used when loading the full-size images so that the user doesn't experience a laggy or choppy-feeling interface. I've worked with Material UI, a React component library, many times before and I love the polished look and easy customization it provides. I would probably implement Material UI or a similar library for this project. If we did not have UX team, I would find a group of test users to play around with the UI so I can take notes on where the hang ups are and which parts of the application are most cumbersome to users. Changing and tweaking micro elements overtime can have a drastic impact on performance and customer conversion. I would be focusing on things like:
 - Optimal image quality (high-res enough for the user to have a quality view and experience, but also small enough to perform well with quick loading times)
-- Ease of site navigation and button placement, size, and styling
+- Ability for the user to scroll through full-screen images without having to close the modal each time
+- Related to the above, ease of site navigation and button placement, size, and styling
 - Attractive calls-to-attention to any revenue-generating parts of the site
 
 
