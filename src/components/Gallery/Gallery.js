@@ -5,7 +5,6 @@ import './Gallery.css'
 
 const Gallery = () => {
 
-    // declare a new state variable of "photos" and set to an empty array
     const [photos, setPhotos] = useState([])
     const [selectedPhoto, setSelectedPhoto] = useState(null)
     const [isOpen, setIsOpen] = useState(false)
