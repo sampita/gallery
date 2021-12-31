@@ -7,7 +7,9 @@ const Navbar = () => {
         <header>
             <nav>
                 <ul>
-                    <li>Shuffle images</li>
+                    {/* <li>Nav Item 1</li> */}
+                    {/* <li>Nav Item 2</li> */}
+                    {/* <li>Nav Item 3</li> */}
                 </ul>
             </nav>
         </header>
