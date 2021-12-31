@@ -62,7 +62,7 @@ I also chose to use JSON Server (https://www.npmjs.com/package/json-server) beca
 
 This application meets requirements for mobile responsiveness (tablets and phones) by using Flexbox and other responsive CSS styles.
 
-What I'm most excited about is using React Portals(https://reactjs.org/docs/portals.html) for 
+What I'm most excited about is using React Portals (https://reactjs.org/docs/portals.html) to create my own modal component. In the past, I have used the built-in modal from the Material UI library. I had never made one from scratch. It took trying a few different failed ideas, but eventually I settled on using React Portals and was really excited to find such a good use case for them. The definition from React themselves is, "Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component." In terms of creating a modal, it allowed me to generate my modal component outside of the div containing the main app, so that it won't be overriden by parental Z-indexes and CSS styles and can instead be presented at the very front of the screen atop the other main body content.
 ___
 
 ## If I had more time...
