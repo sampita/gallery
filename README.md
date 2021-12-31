@@ -1,12 +1,15 @@
 # Photo Gallery
 
+- A single page application built with React that displays a gallery of photos
+- Users can click on each photo to see a full-screen, high-res version of that photo
+- **Technologies used**: ReactJS (including functional components, hooks, and React Portals), JSON-Server, Basic CSS
 ## Video Demo: https://drive.google.com/file/d/1FrGFhwUsld9-k_QMvGUgurDreEHoaqhe/view?usp=sharing
 
 ## Setup Instructions
 1. Run `git clone [ssh_key_goes_here]` in your terminal to clone down my application
 2. Navigate into the project folder with `cd gallery`
 3. Run `npm install` to install packages and dependencies, including json-server (which will act as your REST api)
-4. Open another tab in your terminal and `cd` into the `api` folder with the command `cd api`. In this folder you will find the `photos.json` file I was provided for this challenge. Run `json-server -p 5002 -w photos.json` to run json-server on port 5002. (If you get an error message when running this command, installing json-server globally usually fixes it. Try the comman `npm install -g json-server` and then `json-server -p 5002 -w photos.json`)
+4. Open another tab in your terminal and `cd` into the `api` folder with the command `cd api`. In this folder you will find the `photos.json` file I was provided for this challenge. Run `json-server -p 5002 -w photos.json` to run json-server on port 5002. (If you get an error message when running this command, installing json-server globally usually fixes it. Try the command `npm install -g json-server` and then `json-server -p 5002 -w photos.json`)
 5. While keeping that running, head back to your original terminal tab and `cd ..` back to the project's main folder
 6. Run `npm start` and your browser should open up localhost:3000 with the application up and running!
 # Notes From Sam 👩🏻
