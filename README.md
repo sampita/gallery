@@ -1,3 +1,10 @@
+# Setup Instructions
+1. Run `git clone [ssh_key_goes_here]` in your terminal to clone down my application
+2. Navigate into the project folder with `cd gallery`
+3. Run `npm install` to install packages and dependencies, including json-server (which will act as your REST api)
+4. Open another tab in your terminal and `cd` into the `api` folder with the command `cd api`. In this folder you will find the `photos.json` file I was provided for this challenge. Run `json-server -p 5002 -w photos.json` to run json-server on port 5002. (If you get an error message when running this command, installing json-server globally usually fixes it. Try the comman `npm install -g json-server` and then `json-server -p 5002 -w photos.json`)
+5. While keeping that running, head back to your original terminal tab and `cd ..` back to the project's main folder
+6. Run `npm start` and your browser should open up localhost:3000 with the application up and running!
 # Scroll to the bottom for my notes on this challenge 👇👇👇
 
 Instructions:
@@ -100,23 +107,13 @@ const getPhotoURL = (obj) => {
 ```
 
 ### STYLING
-From a UI perspective, I would do a lot more UI styling (I had NO time to do any styling) to make the app appear clean, simple, and modern. A loading circle would definitely need to be used when loading the full-size images so that the user doesn't experience a laggy or choppy-feeling interface. I've worked with Material UI, a React component library, many times before and I love the polished look and easy customization it provides. I would probably implement Material UI or a similar library for this project. If we did not have UX team, I would find a group of test users to play around with the UI so I can take notes on where the hang ups are and which parts of the application are most cumbersome to users. Changing and tweaking micro elements overtime can have a drastic impact on performance and customer conversion.
+From a UI perspective, I would do a lot more UI styling (I had NO time to do any styling) to make the app appear clean, simple, and modern. A loading circle would definitely need to be used when loading the full-size images so that the user doesn't experience a laggy or choppy-feeling interface. I've worked with Material UI, a React component library, many times before and I love the polished look and easy customization it provides. I would probably implement Material UI or a similar library for this project. If we did not have UX team, I would find a group of test users to play around with the UI so I can take notes on where the hang ups are and which parts of the application are most cumbersome to users. Changing and tweaking micro elements overtime can have a drastic impact on performance and customer conversion. I would be focusing on things like:
+- Optimal image quality (high-res enough for the user to have a quality view and experience, but also small enough to perform well with quick loading times)
+- Ease of site navigation and button placement, size, and styling
+- Attractive calls-to-attention to any revenue-generating parts of the site
 
 
-How am I handling caching???
-
-Styling:
-Originally had unique CSS files, switched to useStyles/makeStyles for cleaner file structure and react’s useStyles has the additional benefit of
-
-Performance:
-Using smaller images for the grid view, cached for the shuffle feature in local storage, and only loading the larger files when a photo is clicked into full screen view
-
-CSS grid?? Flex box? Material ui grid?
-
-How did I handle mobile responsiveness???
-React JSX <picture> tag
-
-For shuffle function, I wanted to add one fun addition to the app at the end. I could’ve used a library called lodash which has a shuffle helper function, but to keep within the project parameters of only using React and javascript, I wrote out a longford function called “shufflePhotos” 
+Thank you for letting me attempt this challenge! Happy New Year!
 
 
 
