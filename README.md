@@ -12,7 +12,7 @@
 # Notes From Sam 👩🏻
 
 ## Technology Choices
-I will begin by saying that I was given instructions that, contrary to the original instructions above, I was allowed to use React or NextJS if I wished. Due to the time constraints, I thought "Aha! I will definitely use React!" React was made for creating web apps relatively quickly that can change data WITHOUT reloading the page, which is perfect for this single page application where a user would be looking at a gallery of photos. Writing in VanillaJS would be more laborious and time-consuming. React also has the ability to hold information for you in its state and easily pass that information as props to child components.
+I will begin by saying that I was given instructions that, contrary to the original instructions above, I was allowed to use React or NextJS if I wished. Due to the time constraints, I thought "Aha! I will definitely use React!" React was made for creating web apps relatively quickly that can change data WITHOUT reloading the page, which is perfect for this single page application where a user would be looking at a gallery of photos. Writing in VanillaJS would be more laborious and time-consuming. React also has the ability to hold information for you in its state and easily pass that information as props to child components. It was designed to help you create easily reusable components which is great for developers and customers alike!
 
 I used *Create React App* for sake of speed for this challenge. It sets up your development environment for you and has client-side rendering. 
 
