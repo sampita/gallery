@@ -14,5 +14,4 @@ const Navbar = () => {
     )
 }
 
-//use withRouter() when you can't use the Route component
 export default Navbar;
